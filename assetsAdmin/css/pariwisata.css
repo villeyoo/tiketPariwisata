@@ -1,0 +1,81 @@
+.input-text {
+    width: 300px;
+    padding: 15px; /* Menambahkan ruang padding */
+    border: 2px solid #f0f0f0; /* Garis tepi abu-abu */
+    border-radius: 15px; /* Membuat kotak menjadi bulat */
+    font-size: 16px;
+    text-transform: capitalize;
+    
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out; /* Efek transisi saat hover */
+  }
+  
+  /* Style untuk placeholder */
+  .input-text::placeholder {
+    color: #b3b3b3; /* Warna teks placeholder */
+    font-size: 15px; /* Menambahkan ukuran teks placeholder */
+  }
+  
+  /* Style untuk input teks saat aktif (focus) */
+  .input-text:focus {
+    outline: none;
+    border-color: #007bff; /* Warna garis tepi saat aktif */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Bayangan warna biru saat aktif */
+  }
+  .container {
+    display: flex; /* Menggunakan flexbox */
+    justify-content: space-between; /* Menyusun elemen secara horizontal dengan jarak yang sama */
+    background-color: #ffffff; /* Warna latar belakang card */
+    padding: 15px;
+    border-radius: 5px;
+  }
+  .input-text1 {
+    width: 300px;
+    padding: 15px; /* Menambahkan ruang padding */
+    border: 2px solid #f0f0f0; /* Garis tepi abu-abu */
+    border-radius: 15px; /* Membuat kotak menjadi bulat */
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out; /* Efek transisi saat hover */
+  }
+  .input-text1::placeholder {
+    color: #000000; /* Warna teks placeholder */
+    font-size: 18px; /* Menambahkan ukuran teks placeholder */
+  }
+  .input-text1:focus {
+    outline: none;
+    border-color: #007bff; /* Warna garis tepi saat aktif */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Bayangan warna biru saat aktif */
+  }
+  
+  /* Style untuk form kiri */
+  .form-left {
+    width: 45%; /* Lebar form */
+  }
+  
+  /* Style untuk form kanan */
+  .form-right {
+    width: 45%; /* Lebar form */
+  }
+  .full-width-label {
+    display: block; /* Membuat label menjadi blok */
+    width: 100%; /* Menetapkan lebar penuh */
+  }
+  
+  /* Style untuk select */
+  .select-box {
+    width: 100%;
+    padding: 15px; /* Menambahkan ruang padding */
+    border: 2px solid #f0f0f0; /* Garis tepi abu-abu */
+    border-radius: 15px; /* Membuat kotak menjadi bulat */
+    font-size: 16px;
+    
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease-in-out; /* Efek transisi saat hover */
+  }
+  .select-box:focus{
+    outline: none;
+    border-color: #007bff; /* Warna garis tepi saat aktif */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Bayangan warna biru saat aktif */
+  }
